@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from steps.step02 import Variable, square, add
+from src.chap02 import Variable, square, add
 
 class AddTest(unittest.TestCase):
     def test_forward(self):
